@@ -18,42 +18,42 @@
             <h1 class="titulo-form">Venda seu carro de forma fácil</h1>
             <p>Descreva as caracteristicas dos seu carro e marque os opcionais que ele possui</p>
             <form onsubmit="salvarCarros(event)">
-                <div>
-                    <label for="title">Titulo do anúncio <span>*</span></label>
-                    <input type="text" name="title" id="title" placeholder="Um titulo para anuciar seu carro">
+                <div class="caixaInputs">
+                    <label for="title">Titulo do anúncio <span class="campo-obrigatorio">*</span></label>
+                    <input type="text" name="title" id="title" class="block" placeholder="Um titulo para anuciar seu carro">
                 </div>
-                <div>
-                    <label for="preco">Preço<span>*</span></label>
-                    <input type="number" name="preco" id="preco" placeholder="Defina o preço">
+                <div class="caixaInputs">
+                    <label for="preco">Preço<span class="campo-obrigatorio">*</span></label>
+                    <input type="number" name="preco" id="preco" class="block" placeholder="Defina o preço">
                 </div>
-                <div>
-                    <label for="descricao">Descrição<span>*</span></label>
-                    <textarea name="descricao" id="descricao"></textarea>
+                <div class="caixaInputs">
+                    <label for="descricao">Descrição<span class="campo-obrigatorio">*</span></label>
+                    <textarea name="descricao" id="descricao" class="block"></textarea>
                 </div>
-                <div>
-                    <label for="marca">Marca<span>*</span></label>
-                    <input type="text" name="marca" id="marca" placeholder="Defina a marca do seu carro">
+                <div class="caixaInputs">
+                    <label for="marca">Marca<span class="campo-obrigatorio">*</span></label>
+                    <input type="text" name="marca" id="marca" class="block" placeholder="Defina a marca do seu carro">
                 </div>
-                <div>
-                    <label for="modelo">Modelo<span>*</span></label>
-                    <input type="text" name="modelo" id="modelo" placeholder="Defina a marca do seu carro">
+                <div class="caixaInputs">
+                    <label for="modelo">Modelo<span class="campo-obrigatorio">*</span></label>
+                    <input type="text" name="modelo" id="modelo" class="block" placeholder="Defina a marca do seu carro">
                 </div>
-                <div>
-                    <label for="kilometragem">Kilometragem<span>*</span></label>
-                    <input type="number" name="kilometragem" id="kilometragem" placeholder="Kilometragem do seu carro">
+                <div class="caixaInputs">
+                    <label for="kilometragem">Kilometragem<span class="campo-obrigatorio">*</span></label>
+                    <input type="number" name="kilometragem" id="kilometragem" class="block" placeholder="Kilometragem do seu carro">
                 </div>
-                <div>
-                    <label for="dataDeCompra">Data de compra<span>*</span></label>
-                    <input type="date" name="DataDeCompra" id="DataDeCompra">
+                <div class="caixaInputs">
+                    <label for="dataDeCompra">Data de compra<span class="campo-obrigatorio">*</span></label>
+                    <input type="date" name="DataDeCompra" id="DataDeCompra" class="block">
                 </div>
-                 <div>
-                    <p>Tipo de câmbio: <span>*</span></p>
+                 <div class="caixaInputs">
+                    <p>Tipo de câmbio: <span class="campo-obrigatorio">*</span></p>
                     <input type="radio" name="marcha" id="manual">
                     <label for="manual">Manual</label>
                      <input type="radio" name="marcha" id="auto">
                     <label for="manual">Automatico</label>
                 </div>
-                <div>
+                <div class="caixaOpcional">
                     <p>Opcionais</p>
                     <ul>
                         <li>
@@ -95,7 +95,7 @@
                     </ul>
                 </div>
                 <div>
-                    <p>Fotos do carro <span>*</span></p>
+                    <p>Fotos do carro <span class="campo-obrigatorio">*</span></p>
                     <input type="file" name="imagem" id="imagem" multiple accept="image/png, image/jpg">
                 </div>
                 <input type="submit" value="Enviar">
