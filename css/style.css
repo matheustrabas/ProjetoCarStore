@@ -44,3 +44,11 @@ textarea {
     border-bottom: 1px solid rgba(255, 255, 254, 0.959);
     height: 45px;
 }
+.form-header p {
+    color: black;
+    border-bottom: 2px solid (255, 255, 254, 0.959);
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
