@@ -12,12 +12,12 @@
     </header>
     <div class="form-container">
         <div class="form-header">
-            <p><n>Formulário</n></p>
+            <p><strong>Formulário</strong></p>
         </div>
         <div class="form-body">
             <h1 class="titulo-form">Venda seu carro de forma fácil</h1>
             <p>Descreva as caracteristicas dos seu carro e marque os opcionais que ele possui</p>
-            <form>
+            <form onsubmit="salvarCarros(event)">
                 <div>
                     <label for="title">Titulo do anúncio <span>*</span></label>
                     <input type="text" name="title" id="title" placeholder="Um titulo para anuciar seu carro">
