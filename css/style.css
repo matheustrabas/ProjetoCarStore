@@ -4,11 +4,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: yellow;
+    background-color: rgb(255, 255, 228);
 }
 h1, h2, h3, h4, h5, h6{
     color:black
 }
 p, label{
     color: rgb(92, 91, 91);
+}
+input {
+    border: none;
+    border-bottom: 1px solid cadetblue;
 }
