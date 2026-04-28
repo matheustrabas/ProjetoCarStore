@@ -15,4 +15,5 @@ p, label{
 input {
     border: none;
     border-bottom: 1px solid cadetblue;
+    padding: 10px 0 ;
 }
