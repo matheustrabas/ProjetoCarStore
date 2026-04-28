@@ -28,3 +28,7 @@ textarea {
     padding: 20px;
     background-color: rgba(92, 54, 27, 0.897);
 }
+.cabecalho h3{
+    color: rgb(230, 230, 230);
+    margin-top: 0;
+}
