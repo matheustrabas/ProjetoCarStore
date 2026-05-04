@@ -81,3 +81,10 @@ textarea {
 .block {
     display: block;
 }
+.bnt-submit {
+    background-color: rgba(92, 54, 27, 0.897);
+    color: white;
+    border: 2px;
+    width: 150px;
+    height: 50px;
+}
